@@ -13,6 +13,10 @@
 		CB7B57071FBB8C9D00FF2EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7B57061FBB8C9D00FF2EAC /* Assets.xcassets */; };
 		CB7B570A1FBB8C9D00FF2EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7B57081FBB8C9D00FF2EAC /* LaunchScreen.storyboard */; };
 		CB7B57151FBB8C9D00FF2EAC /* SentimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B57141FBB8C9D00FF2EAC /* SentimentUITests.swift */; };
+		CBCEEE171FBBAA3500CFE971 /* SentimentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCEEE131FBBAA3400CFE971 /* SentimentResponse.swift */; };
+		CBCEEE181FBBAA3500CFE971 /* SentimentClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCEEE141FBBAA3500CFE971 /* SentimentClient.swift */; };
+		CBCEEE191FBBAA3500CFE971 /* Sentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCEEE151FBBAA3500CFE971 /* Sentiment.swift */; };
+		CBCEEE1A1FBBAA3500CFE971 /* SentimentKeyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCEEE161FBBAA3500CFE971 /* SentimentKeyResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		CB7B57101FBB8C9D00FF2EAC /* SentimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7B57141FBB8C9D00FF2EAC /* SentimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentUITests.swift; sourceTree = "<group>"; };
 		CB7B57161FBB8C9D00FF2EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCEEE131FBBAA3400CFE971 /* SentimentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentimentResponse.swift; sourceTree = "<group>"; };
+		CBCEEE141FBBAA3500CFE971 /* SentimentClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentimentClient.swift; sourceTree = "<group>"; };
+		CBCEEE151FBBAA3500CFE971 /* Sentiment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sentiment.swift; sourceTree = "<group>"; };
+		CBCEEE161FBBAA3500CFE971 /* SentimentKeyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentimentKeyResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				CB7B57061FBB8C9D00FF2EAC /* Assets.xcassets */,
 				CB7B57081FBB8C9D00FF2EAC /* LaunchScreen.storyboard */,
 				CB7B570B1FBB8C9D00FF2EAC /* Info.plist */,
+				CBCEEE151FBBAA3500CFE971 /* Sentiment.swift */,
+				CBCEEE141FBBAA3500CFE971 /* SentimentClient.swift */,
+				CBCEEE161FBBAA3500CFE971 /* SentimentKeyResponse.swift */,
+				CBCEEE131FBBAA3400CFE971 /* SentimentResponse.swift */,
 			);
 			path = Sentiment;
 			sourceTree = "<group>";
@@ -199,8 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCEEE191FBBAA3500CFE971 /* Sentiment.swift in Sources */,
 				CB7B57021FBB8C9D00FF2EAC /* ViewController.swift in Sources */,
 				CB7B57001FBB8C9D00FF2EAC /* AppDelegate.swift in Sources */,
+				CBCEEE181FBBAA3500CFE971 /* SentimentClient.swift in Sources */,
+				CBCEEE1A1FBBAA3500CFE971 /* SentimentKeyResponse.swift in Sources */,
+				CBCEEE171FBBAA3500CFE971 /* SentimentResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
