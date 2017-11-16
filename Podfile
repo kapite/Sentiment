@@ -6,6 +6,7 @@ target 'Sentiment' do
   use_frameworks!
 
   # Pods for Sentiment
+  pod 'AppCenter'
 
   target 'SentimentUITests' do
     inherit! :search_paths

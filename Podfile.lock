@@ -1,3 +1,19 @@
-PODFILE CHECKSUM: 5a43088e4cc41be7f21fce7e5ae3d834226976ee
+PODS:
+  - AppCenter (1.0.0):
+    - AppCenter/Analytics (= 1.0.0)
+    - AppCenter/Crashes (= 1.0.0)
+  - AppCenter/Analytics (1.0.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.0.0)
+  - AppCenter/Crashes (1.0.0):
+    - AppCenter/Core
+
+DEPENDENCIES:
+  - AppCenter
+
+SPEC CHECKSUMS:
+  AppCenter: 6420fff6632a6e728dff657c94346289b7868195
+
+PODFILE CHECKSUM: bbd0c555a8ea7f30d91ec5120420ae0cbb504dea
 
 COCOAPODS: 1.3.1

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AppCenterAnalytics
 
 class ViewController: UIViewController {
 
@@ -42,6 +43,7 @@ class ViewController: UIViewController {
             
             setActivity(true)
             
+            MSAnalytics.trackEvent("Text submitted", withProperties: ["text" : sentimentTextView.text])
             SentimentClient.shared.determineSentiment(sentimentTextView.text) { sentimentResponse in
                 
                 self.setActivity(false)
